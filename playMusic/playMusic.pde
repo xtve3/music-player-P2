@@ -27,7 +27,7 @@ void keyPressed() {
 
   //PLAY PAUSE Feature
   if (key=='P' || key=='p') {
-    if (song1.isPlaying(); ) {
+    if (song1.isPlaying() ) {
      song1.pause();
     } else if ( song1.position() >= song1.length()-song1.length()*1/5 ) {
       song1.rewind();
